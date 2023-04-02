@@ -1,0 +1,12 @@
+.button {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  padding: 5px;
+  width: 375px;
+  border-radius: 10px;
+  font-size: 16px;
+  background: black;
+  color: white;
+  transform: translateX(-50%);
+}
