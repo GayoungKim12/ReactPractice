@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 400px;
+  margin: 20px auto;
+  border: 2px solid black;
+}
+
+.tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 0 50px;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(209, 255, 234, 0.901);
+  text-align: center;
+  list-style: none;
+}
+
+.tablist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.tablist.active {
+  color: rgb(255, 95, 149);
+  border-bottom: 2px solid rgb(255, 95, 149);
+}
+
+.change-area {
+  margin: auto;
+  padding: 50px 0;
+  width: 100%;
+  height: 150px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
